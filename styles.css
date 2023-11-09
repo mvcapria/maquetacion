@@ -1,0 +1,270 @@
+@media (min-width: 360px) and (max-width: 768px) {
+    body {
+      background-color:#ff9999;
+    }
+  }
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+header{
+    background-color: #f5d9d5;
+    padding: 1em 0;
+}
+
+.candyimg{
+    border-radius: 50px;
+    width: 150px;
+    margin-left: 2.5rem;
+    
+
+}
+
+header h1{
+    color: white;
+    font-size: 2.5rem;
+    font-style: italic;
+    font-weight: 100;
+    display: inline-block;
+    position: relative;
+    bottom: 30px;
+    margin-left: 2rem;
+}
+
+nav{
+    background-color: #FF6666;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 1rem;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 20%;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: solid;
+    text-align: center;
+    display: block;
+    padding: 0.2em 0.4em;
+}
+
+nav ul li a:hover{
+    background-color: rgba(0,0,0,0.3);
+    text-transform:capitalize;
+}
+
+footer {
+    color: black;
+    padding: 3em 0;
+    margin-top: 2em;
+    text-align: center;
+}
+
+nav ul li a.active{
+    background-color: #ff9999;
+}
+
+h2{
+    color:#FF6666;
+    font-weight: 500;
+    margin: 0 0 1em;
+}
+
+.homeimg{
+    margin-bottom: 1.5em;
+}
+
+.homeimg1{
+    width: 20%;
+    
+}
+
+.columns{
+    overflow: hidden;
+}
+
+.left{
+    float: left;
+    width: 70%;
+    padding-right: 2em;
+    text-align: justify;
+}
+
+.right{
+    float: right;
+    width: 25%;
+}
+
+.left .right {
+    box-sizing: border-box;
+}
+
+.reviews{
+    background-color:beige;
+    padding: 1em;
+}
+
+.right .text {
+    font-weight: bold;
+    font-size: 1em;
+    display: block;
+}
+
+.right .reviews .author {
+    font-size: 0.9em;
+    text-align: center;
+    margin: 1em 0;
+    display: block;
+}
+
+.aboutUs p{
+    font-size: 1em;
+}
+
+.people {
+    overflow: hidden;
+}
+
+.person {
+    width: 30%;
+    border: 1px solid #d85c62;
+    font-weight: 300;
+    text-align: justify;
+    border-radius: 0.25em;
+    float: left;
+    margin-left: 2.25%;
+    box-sizing: border-box;
+}
+
+.person{
+    text-align: center;
+}
+
+.person img{
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    margin: 0.8em 0 1em;
+    max-width: 70%;
+}
+
+.person h3, 
+.person h4{
+    text-align: center;
+    font-weight: normal;
+    color: #d85c62;
+    margin: 0;
+}
+
+.person h3{
+    font-size: 1.2em;
+}
+
+.person h4{
+    font-size: 1em;
+    font-style: italic;
+}
+
+.person p{
+    font-size: 0.8em;
+    color: #444;
+    margin: 0 1em 1em;
+}
+
+#candies{
+    text-align: center;
+}
+
+.photo {
+    width: 20%;
+    border: 1px solid #d85c62;
+    font-weight: 300;
+    border-radius: 0.25em;
+    float: left;
+    margin-left: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+.candy{
+    border-radius: 10%;
+    margin-left: 13%;
+    margin-top: 10%;
+    max-width: 70%;
+
+
+}
+
+.text {
+    font-size: 1.1em;
+    text-align: center;
+}
+
+.signupFrm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+  }
+
+  .form {
+    background-color: white;
+    width: 400px;
+    border-radius: 8px;
+    padding: 20px 40px;
+    box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+  }
+  
+  .title {
+    font-size: 50px;
+    margin-bottom: 50px;
+  }
+
+  .inputContainer {
+    position: relative;
+    height: 45px;
+    width: 90%;
+    margin-bottom: 17px;
+  }
+
+  .input {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 7px;
+    font-size: 16px;
+    padding: 0 20px;
+    background: none;
+  }
+  
+  
+  .label {
+    color: white;
+  }
+
+  .submitBtn {
+    display: block;
+    margin-left: auto;
+    padding: 15px 30px;
+    border: none;
+    background-color: purple;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 30px;
+  }
+  
+  .submitBtn:hover {
+    background-color: #9867C5;
+    transform: translateY(-2px);
+  }
